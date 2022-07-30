@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+        --White: #ffffff;
+        --Light-gray: #d6e2f0;
+        --Grayish-blue: #7b879d;
+        --Dark-blue: #1f3251;
+    }
+    body {
+        background-color: var(--Light-gray);
+        box-sizing: border-box;
+        display: grid;
+        align-items: center;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .main {
+        align-self: center;
+        background-color: var(--White);
+        border-radius: 2.5%;
+        font-family: Outfit, sans-serif;
+        justify-self: center;
+        max-width: 310px;
+        padding: 1rem; 
+        text-align: center;
+    }
+    img {
+        border-radius: 2.5%;
+            max-width: 99%;
+    }
+    .title {
+        color: var(--Dark-blue);
+        font-size: 1.5rem;
+    }
+    .attribution, .description {
+        color: var(--Grayish-blue);
+    }
+    .attribution a { 
+        color: var(--Grayish-blue); 
+        font-size: 11px;
+    }
+  </style>
+</head>
+<body>
+    <main class="main">
+        <img src="./images/image-qr-code.png" alt="Frontend Mentor QR code">
+        <h1 class="title">Improve your front-end skills by building projects</h1>
+        <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p> 
+
+        <p class="attribution">
+            Coded by <a href="https://github.com/moilu">Moilu</a>.
+        </p>
+    </main>
+</body>
+</html>
